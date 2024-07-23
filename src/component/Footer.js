@@ -3,14 +3,16 @@ import React from "react";
 const Footer = () => {
   return (
     <>
-      <section class="footer">
-        <div class="share">
-          <a href="https://www.facebook.com/merdul.sharma.3?mibextid=ZbWKwL" class="fab fa-facebook-f"></a>
-          <a href="https://github.com/Merdulsh2003" class="fab fa-github"></a>
-          <a href="https://www.instagram.com/mridulsh2003_21/?igshid=MXhpNmJhdnduMWkxMg%3D%3D" class="fab fa-instagram"></a>
-          <a href="https://www.linkedin.com/in/merdul-sharma-962324292?utm_source=share&utm_campaign=share_via&utm_content=profile&utm_medium=android_app" class="fab fa-linkedin"></a>
+      <section className="footer">
+        <div className="share">
+          <a href="https://www.facebook.com/merdul.sharma.3?mibextid=ZbWKwL" className="fab fa-facebook-f"></a>
+          <a href="https://github.com/Merdulsh2003" className="fab fa-github"></a>
+          <a href="https://www.instagram.com/mridulsh2003_21/?igshid=MXhpNmJhdnduMWkxMg%3D%3D" className="fab fa-instagram"></a>
+          <a href="https://www.linkedin.com/in/merdul-sharma-962324292?utm_source=share&utm_campaign=share_via&utm_content=profile&utm_medium=android_app" className="fab fa-linkedin"></a>
+          <a href="mailto:merdulsharma2003@gmail.com" className="fas fa-envelope"></a>
+          <a href="https://t.me/MridulSh2003" className="fab fa-telegram"></a>
         </div>
-        <div class="links">
+        <div className="links">
           <a href="#home">home</a>
           <a href="#about">about</a>
           <a href="#menu">menu</a>
@@ -18,8 +20,8 @@ const Footer = () => {
           <a href="#review">review</a>
           <a href="#contact">contact</a>
         </div>
-        <div class="credit">
-          created by <span>Merdul Sharma</span> | 2024
+        <div className="credit">
+          © 2024 <span>Merdul Sharma</span> | All rights reserved.
         </div>
       </section>
     </>

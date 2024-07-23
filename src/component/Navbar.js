@@ -42,7 +42,9 @@ const Navbar = () => {
                 </nav>
                 <div className='icons'>
                     <div className='fas fa-search' onClick={searchHandler}></div>
-                    <div className='fas fa-shopping-cart' onClick={cartHandler}></div>
+                    <div className='fas fa-shopping-cart' onClick={cartHandler} style={{ position: 'relative' }}>
+                        {cart.length > 0 && <span className='cart-count'>{cart.length}</span>}
+                    </div>
                     <div className='fas fa-bars' id='menu-btn' onClick={navbarHandler}></div>
                 </div>
                 <div className='search-form' ref={searchRef}>
@@ -65,7 +67,7 @@ const Navbar = () => {
                         ))
                     )}
                     <a className='btn' href='#'>
-                        checkout Now
+                        Checkout Now
                     </a>
                 </div>
             </header>

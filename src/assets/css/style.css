@@ -19,6 +19,22 @@ html {
   scroll-behavior: smooth;
 }
 
+.cart-count {
+  position: absolute;
+  top: -10px;
+  right: -10px;
+  background-color: red;
+  color: white;
+  border-radius: 50%;
+  padding: 0.25em 0.5em;
+  font-size: 0.50em;
+  font-weight: bold;
+  z-index: 1;
+}
+
+
+
+
 html::-webkit-scrollbar {
   width: 0.8rem;
 }
@@ -381,19 +397,19 @@ section {
 .review .box-container {
   display: flex;
   flex-wrap: nowrap;
-  overflow-x: auto; /* Enable horizontal scrolling */
-  padding: 2rem; /* Adjust padding as needed */
-  -ms-overflow-style: none; /* IE and Edge */
-  scrollbar-width: none; /* Firefox */
+  overflow-x: auto;
+  padding: 2rem;
+  -ms-overflow-style: none;
+  scrollbar-width: none;
 }
 
 .review .box-container::-webkit-scrollbar {
-  display: none; /* WebKit browsers */
+  display: none;
 }
 
 .review .box-container .box {
-  flex: 0 0 30%; /* Adjust the width of each review box */
-  margin: 1rem; /* Adjust margin between boxes */
+  flex: 0 0 30%;
+  margin: 1rem;
   border: 0.2rem solid #ffc107;
   text-align: center;
   padding: 3rem 2rem;
